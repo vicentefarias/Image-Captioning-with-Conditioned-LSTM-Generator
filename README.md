@@ -4,8 +4,8 @@
 This project implements a LSTM language generator model for generating image captions. The model is conditioned on encoded image inputs from a pre-trained CNN Inception V3 image encoder.
 
 ## Key Features
-- Developed LSTM model using Numpy, Matplotlib, & Keras-Tensorflow
-- Trained LSTM model on word2vec image captions on cloud GPU
+- Developed LSTM model inputs using Numpy, Matplotlib, & Keras-Tensorflow
+- Trained LSTM model caption inputs on processed word2vec image captions on cloud GPU
 - Preprocessed images using pre-trained CNN Inception V3 image encoder
 - Conditioned LSTM generator with encoded image inputs
 - Decoded & validated LSTM language model image inputs using greedy & beam search for generative captioning
